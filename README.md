@@ -87,5 +87,3 @@ fn main() {
 }
 ```
 Ejecutar `cargo run`. Marco error, resolver más adelante.
-
-#### test
