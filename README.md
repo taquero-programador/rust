@@ -65,9 +65,9 @@ edition = "2021"
 [dependencies]
 ferris-says = "0.3.1"
 ```
-Ejecutar `cargo build` para instalar las dependencias. Este comando creá un archivo `Cargo.lock`, contiene una lista de las versiones exactas de todas las dependencias usadas en local. Para usar la dependencia se añade (borrar todo el contenido) al archivo `main.rs` y se añade lo siguiente: 
+Ejecutar `cargo build` para instalar las dependencias. Este comando creá un archivo `Cargo.lock`, contiene una lista de las versiones exactas de todas las dependencias usadas en local. Para usar la dependencia se añade al archivo `main.rs`: 
 ```rs
-user ferris_say::say;
+use ferris_say::say;
 ```
 Usa la función `say` que exporta de `ferris_says`.
 
